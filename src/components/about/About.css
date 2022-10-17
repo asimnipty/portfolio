@@ -1,0 +1,87 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    gap: 5%;
+    justify-content: center;
+    
+}
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 32px;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+.about__me-image {
+    border-radius: 32px;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about__me-image:hover {
+    transform: rotate(0);
+}
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 16px;
+}
+.about_card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    transition: var(--transition);
+}
+.about_card:hover {
+    background: transparent;
+    border-color:var(--color-primary-variant);
+    cursor: default;
+}
+.about_card-icon {
+    color: var(--color-primary);
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.about__card h5 {
+    font-size: 13px;
+   
+}
+.about__card small {
+    color: var(--color-light);
+    font-size: 10px;
+}
+.about__content p {
+    margin: 32px 0 26px;
+    color:var(--color-light);
+
+}
+
+/* ============ MEDIA (MWDIUM DEVICE)============== */
+
+@media screen and (max-width:1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me {
+        width: 50%;
+        margin: 32px auto 64px;
+    }
+    .about__content p {
+        margin: 16px 0 24px;
+    }
+}
+
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width:600px) {
+    .about__me {
+        width: 65%;
+        margin: 0 auto 48px;
+    }
+    
+}
