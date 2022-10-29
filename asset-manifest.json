@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3f74dfeb.css",
-    "main.js": "/portfolio/static/js/main.b59b010e.js",
+    "main.css": "/portfolio/static/css/main.dfc8fd8b.css",
+    "main.js": "/portfolio/static/js/main.a74b2f3e.js",
+    "static/media/digicard.PNG": "/portfolio/static/media/digicard.5e62375a976a8b8290d6.PNG",
+    "static/media/airbnb.png": "/portfolio/static/media/airbnb.4f1fd925be0555f04141.png",
+    "static/media/cooking.png": "/portfolio/static/media/cooking.4c706fde72a48e7e4b78.png",
+    "static/media/port.png": "/portfolio/static/media/port.4251064ea38e926a3c09.png",
+    "static/media/kid.png": "/portfolio/static/media/kid.c4c1013e12515de6d8fb.png",
     "static/media/me.png": "/portfolio/static/media/me.5538ac1190aa86e929bf.png",
     "static/media/cv.pdf": "/portfolio/static/media/cv.39a1ed69f13b51901341.pdf",
-    "static/media/portfolio2.jpg": "/portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3f74dfeb.css.map": "/portfolio/static/css/main.3f74dfeb.css.map",
-    "main.b59b010e.js.map": "/portfolio/static/js/main.b59b010e.js.map"
+    "main.dfc8fd8b.css.map": "/portfolio/static/css/main.dfc8fd8b.css.map",
+    "main.a74b2f3e.js.map": "/portfolio/static/js/main.a74b2f3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f74dfeb.css",
-    "static/js/main.b59b010e.js"
+    "static/css/main.dfc8fd8b.css",
+    "static/js/main.a74b2f3e.js"
   ]
 }
